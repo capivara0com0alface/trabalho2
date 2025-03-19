@@ -32,7 +32,7 @@ header{
     width: 50%;
 }
 
-.menu{
+.menu nav a{
     color: white;
     text-decoration: none;
     padding-right: 25px;
@@ -121,5 +121,5 @@ body {
     right: 20px;
     font-size: 30px;
     color: white;
-    cursor: pointer;
+    cursor: pointer;
 }
