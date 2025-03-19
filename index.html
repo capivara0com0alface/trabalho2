@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="https://kit.fontawesome.com/6dda5f6271.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Trabalho de Programação</title>
+</head>
+<body>
+    <header>
+        <script src="main.js"></script>
+         <div class="container">
+            <div class="logo"><img src="img/a.jfif"></div>
+            <div class="menu">
+                <nav>
+                    <a href="#">Atividades</a>
+                    <a href="#">Provas</a>
+                    <a href="#">Trabalhos</a>
+                    <a href="#">Notas</a>
+                </nav>
+            </div>
+            <div class="sociais">
+                <button><i class="fa-brands fa-square-instagram"></i></button>
+                <button><i class="fa-brands fa-square-instagram"></i></button>
+                <button><i class="fa-brands fa-square-instagram"></i></button>
+                
+            </div>
+        </div>   
+        </header>
+        <title>Menu Hambúrguer</title>
+<body>
+    <div class="menu-container">
+        <!-- Ícone de hambúrguer -->
+        <div class="hamburger-menu" id="hamburger-menu" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <!-- Menu -->
+        <div class="menu" id="menu">
+            <div class="close-button" onclick="toggleMenu()">X</div>
+            <ul>
+                <li><a href="#">História</a></li>
+                <li><a href="#">Sociologia</a></li>
+                <li><a href="#">Matemática</a></li>
+                <li><a href="#">Biologia</a></li>
+                <li><a href="#">Química</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        // Função para alternar a visibilidade do menu
+        function toggleMenu() {
+            var menu = document.getElementById('menu');
+            menu.classList.toggle('active');
+        }
+    </script> 
+    </header>
+</body>
+</html>
