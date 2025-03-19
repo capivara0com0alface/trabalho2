@@ -96,9 +96,11 @@ body {
 }
 
 .menus{
-    width: 27%;
+    width: 48%;
     font-size: 149%;
     position: absolute;
+    color: white;
+    text-decoration: none;
 }
 
 .menu.active {
